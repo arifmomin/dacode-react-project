@@ -1,0 +1,109 @@
+/* ==============================testiomonial part start========================== */
+.testiomonial_part{
+    padding: 175px 0 145px;
+    background: #fff;
+}
+.testiomonial_title h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: #7BC0E3;
+    text-align: center;
+}
+.testiomonial_title h3{
+    font-size: 48px;
+    font-weight: 400;
+    color: #292525;
+    text-align: center;
+    margin: 16px 0 50px;
+}
+.testiomonial_box{
+    max-width: 1025px;
+    padding: 67px;
+    border-radius: 12px;
+    background: #FDFDFF;
+    box-shadow: 0px 97px 90px rgba(7, 0, 59, 0.12);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0% auto;
+    position: relative;
+}
+.testiomonial_next_arrow, .testiomonial_prev_arrow{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0px 24px 32px rgba(59, 59, 59, 0.12);
+    top: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #7BC0E3;
+}
+.testiomonial_next_arrow {
+    left: -20%;
+}
+.testiomonial_prev_arrow{
+    right: -20%;
+}
+.testiomonial_box h4{
+    font-size: 26px;
+    font-weight: 700;
+    color: #292525;
+}
+.testiomonial_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    margin: 10px 0 25px;
+}
+.testiomonial_icon span{
+    font-size: 20px;
+    color: #FBBE36;
+}
+.testiomonial_box p{
+    max-width: 890px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    line-height: 30px;
+    margin: 0% auto;
+    text-align: center;
+}
+.testiomonial_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.testiomonial_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 32px;
+}
+.testiomonial_name h2{
+    font-size: 22px;
+    font-weight: 400;
+    color: #292525;
+    margin: 30px 0 10px;
+}
+.testiomonial_name h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #60E1CB;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------testiomonial part end---------------------------- */

@@ -1,0 +1,53 @@
+/* ===============================navbar css start============================ */
+.navBar{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar_right_item{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.navbar_list{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.nav_item .nav_link{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    transition: all linear .3s;
+}
+.nav_item .active_color{
+    color: #60E1CB;
+}
+.nav_item .nav_link:hover{
+    color: #60E1CB;
+}
+.navbar_button button{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding: 14px 27px;
+    border-radius: 50px;
+    background: #7BC0E3;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------navbar css end------------------------------ */

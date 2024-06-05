@@ -1,0 +1,47 @@
+/* ===========================common css start========================== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,li,ol{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+@font-face {
+    font-family: ttfFont;
+    src: url(../../ttfFont/AbhayaLibre-ExtraBold.ttf);
+  }
+  body {
+    font-family: ttfFont;
+  }
+/* ---------------------------common css end---------------------------- */
+/* ===========================footer list start========================== */
+.footerlist h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 30px;
+}
+.footer_service a{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.40);
+}
+
+
+
+
+
+/* -------------------------footer list end---------------------------- */

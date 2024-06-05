@@ -1,0 +1,64 @@
+/* =======================================banner css start ======================================= */
+.banner_wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner_right picture img{
+    max-width: 650px;
+}
+.banner_left .banner_head{
+    max-width: 432px;
+    font-size: 54px;
+    font-weight: 400;
+    color: black;
+    position: relative;
+}
+.banner_left .banner_head::after{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    border-radius: 5px;
+    background: #7BC0E3;
+    top: -15px;
+    left: 0%;
+}
+.banner_left .banner_head span{
+    color: #60E1CB;
+}
+.banner_summery{
+    max-width: 610px;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin: 29px 0 52px 0;
+}
+.banner_button_wraper{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+.banner_button a{
+    width: 170px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #60E1CB;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.banner_button .banner_secound_button{
+    background: transparent;
+    border: 2px solid rgba(7, 0, 59, 0.17);
+    color: #60E1CB;
+}
+
+
+
+
+/* --------------------------------------banner css end---------------------------------------- */

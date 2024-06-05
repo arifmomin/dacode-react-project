@@ -1,0 +1,120 @@
+/* =========================================artical part start==================================== */
+.artical_part{
+    padding: 168px 0 148px;
+    background: #E9FBF8;
+}
+.artical_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.artical_left h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: #7BC0E3;
+}
+.artical_left h3{
+    font-size: 48px;
+    font-weight: 400;
+    color: #000;
+    margin: 14px 0 26px;
+}
+.artical_left p{
+    max-width: 450px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+    line-height: 30px;
+}
+.artical_button a{
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    background: #7BC0E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+.artical_right{
+    display: flex;
+    column-gap: 50px;
+    position: relative;
+}
+.artical_right_item{
+    max-width: 344px;
+    padding: 75px 30px 40px 34px;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0px 36px 39px rgba(7, 0, 59, 0.04);
+}
+.artical_right_item h2{
+    max-width: 213px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    line-height: 32px;
+}
+.artical_right_item p{
+    max-width: 256px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.50);
+    line-height: 30px;
+}
+.artical_right_link a{
+    display: flex !important;
+    gap: 5px;
+    align-items: center;
+    margin-top: 25px;
+}
+ .artical_read{
+font-size: 20px;
+font-weight: 700;
+color: #7BC0E3;
+}
+.artical_icon{
+    font-size: 23px;
+    font-weight: 700;
+    color: #7BC0E3;
+    margin-top: 8px;
+}
+.artical_prev_arrow{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0px 24px 32px rgba(59, 59, 59, 0.12);
+    top: 38%;
+    right: -4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #7BC0E3;
+}
+.artical_ball{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 80px;
+}
+.artical_ball span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #CBCDF5;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.04);
+}
+.artical_ball .one{
+    width: 15px;
+    height: 15px;
+    background: #7BC0E3;
+}
+
+
+
+
+/* -----------------------------------------artical part end-------------------------------------- */
